@@ -1,0 +1,1 @@
+Pseudocode is used as a "fake" code and we use it to try and understand code or outline a program it is the foundation of a good code.
