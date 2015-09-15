@@ -1,0 +1,1 @@
+IDE is Intergrated Development Environment. This is the source code editor,and you can make applications
