@@ -1,0 +1,34 @@
+package helloaldo;
+#^^this is the name of the program^^
+
+public class HelloAldo{
+#^^public-because its shared with all other elements of the program^^
+#^^class-they are like subsections of the program Ex.chapteers in a book^^
+(programs are sets of instructions , e.g. classes,methods,and even variables)
+
+	public static void main(string[] args){
+#This is the main class ! This is important bcause ever java program has a main class
+	system.out.println("hello world");
+#This prints out the command in parenthesis wich is hello world in this instance^^
+	}
+}
+# for every curly brace opening there must be a closed curly brace
+#static class is that it is shared with everything
+# void means it dosent pass anything down to others
+#methods passes information downward
+[you will have to memorize the public class line of code!]
+
+DATA TYPES
+
+int- is an intiger,i.e.,a"counting number"
+
+float-a floating point decimal,ex:2.456
+
+short-long,double-other numbers with decimals
+
+char-just one character,e.g.,"1"
+
+string-alot of characters,eg, "ignacio.S"
+
+boolean-a true or false statement
+
