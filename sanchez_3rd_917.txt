@@ -1,0 +1,9 @@
+float- a decimalized number"1.647"
+
+string- a multiple amount of characters
+
+intiger- a whole number
+
+char- a single character
+
+boolean-a true or false statement
