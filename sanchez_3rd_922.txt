@@ -1,10 +1,10 @@
 copyright-a right that allows your work to not be used without your permision
 
-Copyleft- a method to create a program
+Copyleft- a method to create a program; if any modification is made it must follwow their guidelines
 
 Fair use- you can use a object or thing under their terms and policies
 
-Free Speech-
+Free Speech-to say whatever you want or print and stuff.
 
 Freee Software-This gives users the freedom to use software for anything
 
@@ -16,4 +16,19 @@ File-Sharing-a way to share files like p2p and is not issued a copyright
 
 Piracy-a unauthorized use of a copyrighted materials
 
-plagirisim-taking someones work without having the right or permission to do so.
+plagiarism- act of copying or using one's work as your own
+
+infringement-to copy
+
+proprietary-having ownership
+
+open source-a software's source code that is available to see and use
+
+GNU GPL-a free software
+
+License- a license
+
+MIT license-being able to copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software
+
+Apache License -the freedom to use the software for any purpose
+
