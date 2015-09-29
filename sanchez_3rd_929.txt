@@ -1,0 +1,3 @@
+A method is a small program that can ve used th run a program again and again with a specified name.
+A method is useful so that you can save time by using a name instead of writting code again and again
+A method can be usd to find prime numbers by using a for loop and variables in a method format
