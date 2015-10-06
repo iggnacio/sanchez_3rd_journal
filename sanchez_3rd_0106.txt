@@ -1,0 +1,4 @@
+methods are like small programs that you can name so that tou dont type the whole code again
+classes are small subsections of the program so that it can be more organized instead of having it all written down in the same place
+class methods are a method running in different classes but the programm is ran in the main methods class
+instance is an object
