@@ -1,0 +1,5 @@
+I will make make a masterpice of contouring and analogous colours
+My method will be the different types of shapes printed a top each other
+a for loop will be used to put multiple shapes 
+if and else statements will be incorporated to add colours
+math is everywhere and everything involves math.
