@@ -1,0 +1,1 @@
+for this project i used 5 methods ocean,plants,rocks,title,and fish.i will add for loops for multiple fish make different kind of fish, add more detail in my fish and drawing in general.I plan to finish this by next week tops.
