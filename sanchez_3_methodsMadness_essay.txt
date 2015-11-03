@@ -1,207 +1,58 @@
-/*
- * To change this license header, choose License Headers in Project Properties.
- * To change this template file, choose Tools | Templates
- * and open the template in the editor.
- */
-package method_madness;
+Computer Science
+3rd Period Mr.Davis
 
-import javafx.application.Application;
-import javafx.event.ActionEvent;
-import javafx.event.EventHandler;
-import javafx.scene.Scene;
-import javafx.scene.control.Button;
-import javafx.scene.layout.StackPane;
-import javafx.scene.shape.ArcType;
-import javafx.stage.Stage;
+Ignacio Sanchez
+10.08.2015
+10TH GRADE COMPUTER SCIENCE
 
-import javafx.application.Application;
-import javafx.scene.Group;
-import javafx.scene.Scene;
-import javafx.scene.canvas.Canvas;
-import javafx.scene.canvas.GraphicsContext;
-import javafx.scene.paint.Color;
-import javafx.scene.shape.ArcType;
-import javafx.stage.Stage;
 
-public class Method_Madness extends Application {
-    
 
-    public static void main(String[] args) {
-        launch(args);
-}
-            @Override
-                    public void start(Stage primaryStage){
-                        primaryStage.setTitle("Drawing operations Test");
-                        Group root = new Group();
-                        Canvas canvas = new Canvas(3000,2500);
-                        GraphicsContext gc = canvas.getGraphicsContext2D();
-                            drawBackground(gc);
-                            drawBoat(gc);
-        drawWorm(gc);
-        drawFishingLine(gc);
-                            drawFish(gc);
-                            drawName(gc);
-                            drawBubbles(gc);
-                            drawPlant(gc);
-                            drawRocks(gc);
-                        
-                                root.getChildren().add(canvas);
-                            
-primaryStage.setScene(new Scene(root));
-                                primaryStage.show();
-                        
-  }
-    private void drawName(GraphicsContext gc) {
-                        gc.setFill(Color.BLACK);
-                        
-                        
-  }
-    private void drawBubbles(GraphicsContext gc) {
-        
-                        gc.setFill(Color.BLUE);
-                        gc.fillOval(235, 90, 15, 15);
-                        gc.setFill(Color.BLUE);
-                        gc.fillOval(235, 110, 10, 10);  //Bubble For Fish 1
-                                gc.setFill(Color.BLUE);
-                                gc.fillOval(556, 190, 15, 15);
-                                gc.setFill(Color.BLUE);
-                                gc.fillOval(565,210,10,10); // Bubble For Fish 2
-                                        gc.setFill(Color.BLUE);
-                                        gc.fillOval(795, 315, 15, 15);
-                                        gc.setFill(Color.BLUE);
-                                        gc.fillOval(795, 335, 10, 10); //Bubble For Fish 3
-                                                gc.setFill(Color.BLUE);
-                                                gc.fillOval(335, 410, 15, 15);
-                                                gc.setFill(Color.BLUE);
-                                                gc.fillOval(335,430,10,10); //Bubble For Fish 4
-                                                        gc.setFill(Color.BLUE);
-                                                        gc.fillOval(1175, 410, 15, 15);                                
-                                                        gc.setFill(Color.BLUE);
-                                                        gc.fillOval(1175,430,10,10); //Bubble For Fish 5
-  }   
-    
- private void drawFish(GraphicsContext gc){
-                        gc.setFill(Color.CORAL);
-                        gc.setStroke(Color.BLACK);
-                        gc.fillOval(250, 100, 250, 150); //This X Axis Will Be the One That “drawFishingLine” Will Cross 
-                        gc.setFill(Color.BLACK); //The Y Axis Will Be Where The Worm Is Placed Based On The Code Above
-                        gc.fillOval(275, 150, 25,25);
-                                    gc.setFill(Color.CORAL);
+
+
+
+    In Computer Science Pre-Ap we have been working on Methods for the past couple of days, the purpose of this project was to have a hands-on-experience and better understanding of methods. In Method Madness we were accustomed to draw whatever we wished to draw, Algorithmic Art, Two-Dimensional Drawing and anything related to of that nature. For this Project I decided to draw a Two-Dimensional drawing of an underwater Point of View of a Person Looking at a school of fish. I created 6 Method Classes such as: drawBackground, drawFish, drawName, drawBubble, drawPlant, drawBoat,drawWorm, drawString, drawSky and drawRocks. All of my classes are self explanatory so to speak,but I incorporated them all by using simple geometric shapes and different polygons. My inspiration and Influence to do this design is simple, its based of of a chinese art called “The Great Wave Off Kanagawa” and the saying “The calm before the storm”. What I intended to do was demonstrate how it all was before the wave hit Kanagawa. I wanted the drawing to look simply animated not an exact replica if not a simpler more solid image, In the drawSky method i wanted to incorporate the dying bursts of colour the sun gives out before it sets in a gradient format mostly relying on the apricot colour and varying shades of orange, red, yellow, and white. I wanted to reflect the idea of our field of vision and what we perceive about our interests. We pay a grave amount of attention and distinction towards the sky in a sort of manner that it is yet to be unknown to us, it is a limitless object that is theoretically accepted but there is slightly enough curiosity left over so we can ponder the question of “What is out there,and why?”. In the other hand the ocean is a seeming Limited space that is vastly covered with animals, plants, organisms, much as is on the surface, ultimately leading us to believe that  we know what is out there is the ocean and is nothing new. Though both are something we haven't discovered entirely, the infinite boundary seems to captivate many people to wonder more. I wanted to show that in my drawing.
+
+This is a picture of my finished program.
+
+
+
+
+
+For this project of Method Madness I used 2 values that were passed down to my code which were gc(Graphics Context) and canvas.The way I used gc and canvas was by stating it in my main().in the beginning of my main class I stated that I would be using Graphics Context and Canvas with its set dimensions.The Graphics Context was implemented in every shape and colour in my program.Every Method I had involved Graphics Context in a way of sorts.My Canvas was declared and set with given X and Y dimensions which are 3000 and 2500.
+
+The methods i have added or composed of my program were as follows in order of layers: 
+drawBackground
+                        drawBoat
+        drawWorm
+        drawFishingLine
+                        drawFish
+                        drawName
+                        drawBubbles
+                           drawPlant
+                           drawRocks
+In these Methods I have implemented Graphics Context to elaborate off of it in a way so that I used it draw meanwhile using java commands and lines.I ran this program in JavaFX. Each Method lives up to its name, so to speak it was self-explanatory what was inevitably going to happen there. Computationally it was distinctly the same in that it was set to do the same thing: draw an object.The reason it was distinctly different was because they weren't always the same some such as the drawFish method implemented a for loop to draw more fish than 1. and the Graphics Context was vastly different upon each other in its use and colour it produced.In my drawFish method i attempted to make a triangle for my fishes tail or rear fin. I wrote “gc.fillPolygon(250,100,5);
+gc.setFill(Color.ORANGE);”
+NOTE: the quotations above were used only to reference and distinguish my code to the rest of the text.
+So that’s why my fish look like orange Vacuole. My code for my drawFish consisted of this code:
+         “gc.setFill(Color.CORAL);
                                     gc.setStroke(Color.BLACK);
                                     gc.fillOval(575, 200, 250, 150);
                                     gc.setFill(Color.BLACK);
-                                    gc.fillOval(600,250, 25,25);   
-                                            gc.setFill(Color.CORAL);
-                                            gc.setStroke(Color.BLACK);
-                                            gc.fillOval(805, 325, 250, 150);
-                                            gc.setFill(Color.BLACK);
-                                            gc.fillOval(850,355, 25,25);
-                                                        gc.setFill(Color.CORAL);
-                                                        gc.setStroke(Color.BLACK);
-                                                        gc.fillOval(350, 420, 250, 150);
-                                                        gc.setFill(Color.BLACK);
-                                                        gc.fillOval(400,465, 25,25);
-                                                                gc.setFill(Color.CORAL);
-                                                                gc.setStroke(Color.BLACK);
-                                                                gc.fillOval(1200, 425, 250, 150); //same "x" dimensions as the boat
-                                                                gc.setFill(Color.BLACK);
-                                                                gc.fillOval(1255,450, 25,25);
+                                    gc.fillOval(600,250, 25,25); //Fish 1“  
+This was the original piece of code that drew my first fish. implemented a for loop to draw 5 total fish.
 
- }
-  private void drawRocks(GraphicsContext gc){
-                        gc.setFill(Color.LIGHTSLATEGRAY); //All Rocks Have Same Dimensions Except for the “X” Value
-                        gc.fillOval(5,950,155,75); //The “X” Increases By 150 px
-                                gc.setFill(Color.LIGHTSLATEGRAY);
-                                gc.fillOval(155, 950, 155, 75);
-                                        gc.setFill(Color.LIGHTSLATEGRAY);
-                                        gc.fillOval(305, 950, 155, 75);
-                                            gc.setFill(Color.LIGHTSLATEGRAY);
-                                            gc.fillOval(455, 950, 155, 75);
-                                                    gc.setFill(Color.LIGHTSLATEGRAY);
-                                                    gc.fillOval(605, 950, 155, 75);
-                                                            gc.setFill(Color.LIGHTSLATEGRAY);
-                                                            gc.fillOval(755, 950, 155, 75);
-                                                                    gc.setFill(Color.LIGHTSLATEGRAY);    
-                                                                    gc.fillOval(905, 950, 155, 75);
-                                                                        gc.setFill(Color.LIGHTSLATEGRAY);
-                                                                        gc.fillOval(1055, 950, 155, 75);
-                                                                                gc.setFill(Color.LIGHTSLATEGRAY);
-                                                                                gc.fillOval(1200, 950, 155, 75); //All Indentions Refers 1 Rock
-                                                                                        gc.setFill(Color.LIGHTSLATEGRAY);
-                                                                                        gc.fillOval(1350, 950, 155, 75); //All Indentions Refers 1 Rock
-                                    gc.setFill(Color.LIGHTSLATEGRAY);
-                                    gc.fillOval(1500, 950, 155, 75); //All Indentions Refers 1 Rock
-                                                 gc.setFill(Color.LIGHTSLATEGRAY);
-                                                 gc.fillOval(1650, 950, 155, 75); //All Indentions Refers 1 Rock
-}
-  private void drawBackground(GraphicsContext gc){
-                        gc.setFill(Color.LIGHTSKYBLUE); // Sea Background
-                        gc.fillRect(1, 1, 2500, 3000);  //Computer Size Dimensions In Monitor
-}
-  private void drawPlant(GraphicsContext gc){
-                        gc.setFill(Color.DARKGREEN); //All Dimensions Are The Same Except For “X” Value
-                        gc.fillOval(5, 850, 50, 115); //The “X” Value Increases by 50 px
-                                gc.setFill(Color.DARKGREEN);
-                            gc.fillOval(55, 850, 50, 115);
-                                        gc.setFill(Color.DARKGREEN);
-                                gc.fillOval(105, 850, 50, 115);
-                                             gc.setFill(Color.DARKGREEN);
-                                             gc.fillOval(155, 850, 50, 115);
-                                                    gc.setFill(Color.DARKGREEN);
-                                                    gc.fillOval(205, 850, 50, 115);
-                                                            gc.setFill(Color.DARKGREEN);
-                                                            gc.fillOval(505, 850, 50, 115);
-                                                                    gc.setFill(Color.DARKGREEN);
-                                                                    gc.fillOval(555, 850, 50, 115);
-                                                                        gc.setFill(Color.DARKGREEN);
-                                                                        gc.fillOval(605, 850, 50, 115);
-                                                                                gc.setFill(Color.DARKGREEN);
-                                                                                gc.fillOval(655, 850, 50, 115);
-                                                                                        gc.setFill(Color.DARKGREEN);
-                                                                                        gc.fillOval(705, 850, 50, 115); //All Indentions Refer To 2 Leafs
-                                                                                                gc.setFill(Color.DARKGREEN);
-                                                                                                gc.fillOval(1055, 850, 50, 115);
-                                                                    gc.setFill(Color.DARKGREEN);
-                                                                    gc.fillOval(1105, 850, 50, 115);
-                                                                            gc.setFill(Color.DARKGREEN);
-                                                                            gc.fillOval(1155, 850, 50, 115);
-                                                                                    gc.setFill(Color.DARKGREEN);
-                                                                                    gc.fillOval(1205, 850, 50, 115);
-                                                                                            gc.setFill(Color.DARKGREEN);
-                                                                                            gc.fillOval(1255, 850, 50, 115);
-                                                                                                gc.setFill(Color.DARKGREEN);
-                                                                                                gc.fillOval(1505, 850, 50, 115);
-                                                                                                        gc.setFill(Color.DARKGREEN);
-                                                                                                        gc.fillOval(1555, 850, 50, 115);
-                                                                                                                gc.setFill(Color.DARKGREEN);
-                                                                                                                gc.fillOval(1605, 850, 50, 115);
-                                                                                                                        gc.setFill(Color.DARKGREEN);
-                                                                                                                        gc.fillOval(1655, 850, 50, 115);
-                                                                                     
-}
-  private void drawBoat(GraphicsContext gc){
-                    gc.setFill(Color.BROWN);
-                    gc.fillOval(1200, -200, 550, 300); //This Is The Dimension For The Boat
-                        
-            
+In my other methods I just drew different objects  and re organized the x and y axis to place it in a different location each time. This was used mostly in my drawRocks method that overlayed most if not all of the bedrock level of my drawing.
 
-}
-  private void drawFishingLine(GraphicsContext gc){
-        gc.setFill(Color.GRAY);
-        gc.fillRect(1000,250,5,5); //This Will Be The Fishing Line
-            gc.setFill(Color.SILVER);
-gc.fillOval(250,100,10,10); //This WIll Be The Hook
-    gc.setFill(Color.LIGHTSKYBLUE);
-gc.fillOval(255,105,15,6);
-}
- private void drawWorm(GraphicsContext gc){
-        
-//gc.setFill(Color.PINK);
-//        gc.fillOval(240,105,20,40); //This Will Be The Worm On The Fishing Line
-//gc.setFill(Color.BLACK);
-//gc.fillOval(245,110,5,5);//This Will Be The Worm's Eye 
+What my project is composed of mainly is geometric Shapes and Ellipses  used in methods and Graphics Context. My output of the project is a underwater 3rd person point of view of a person viewing a school of fish move around as a fisherman is trying to catch them. In my drawing i tried to make it aesthetically pleasing to the eye and a simplistic design of fish that look friendly and smooth with no borders emphasizing its boldness and adding negative contours into the image.The reason in which i say negative contour is by being the only dark colors in the image that outweigh the light colors that are analogous in a way. In my opinion my drawing stands out than the rest due to it being an actual drawing not a house or lines intersecting in different ways and shapes.Not trying to offend those who have done that in their project but i find it meaning and aesthetically pleasing and a bit more meaning that a bunch of lines jumbled together in a drawing, if the lines have some sort of context or structure they follow would look better.
 
-}
-}
-//void is a return type
+The values that were returned in my products can be described not as numerical values if not geometric values that can be perceived  as shapes but have a lot of functions and values added to them so that they can produce this object that has been drawn or made better said with various functions in an open note.
+
+in my main class all methods are called except for: drawName, drawFishingLine,and drawWorm. these methods were not called due to them not being aesthetically valuable and or useful in the overall theme of the story or main concept of it all.
+
+Some of the modifiers used in this project were mainly private voids used in my methods.and my main Public Static Void.
+
+The main class constructor i used in my program was the Integer int.
+
+All of this information composed my Methods Madness project and with all adieu i thank you for reading this and wish you a good day. 
+
 
