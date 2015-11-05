@@ -1,0 +1,8 @@
+What are strings?
+	-Strings are multiple characters and numbers
+What are they good for?
+	-Strings are usefull to begin methods and conduct scanners
+What are some string methods?
+	-String methods are when a method revolves around a  string; in the sense that the method was made to meet the specific guidelines of a string
+How do we identify string methods?
+	-string methods are identifiable because a method is conducted of strings 
