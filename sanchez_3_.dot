@@ -1,0 +1,45 @@
+digraph simple_map{
+
+A[label="Finding Nemo"]	// node B
+B[label="Start- You are a clown fish that lives in the Great Barrier Reef. 
+You have 1 son named Nemo. 
+nemo goes on a field trip to the edge of the reef. 
+Do you follow him ?  "]	// node E
+
+C[label="Yes you follow your son to the edges of the reef"]
+D[label="No you trust your guppie to be responsible"]
+
+E[label="You see that your son is going to the edge with his friends
+and his friends are swimming to the open sea"]
+F[label="You stay home and talk to other fathers about the trip to the edge"]
+
+G[label="You panic and swim towards him and "]
+H[label=" "]
+
+I
+J
+K
+L
+M
+N
+O
+P
+Q
+R
+S
+T
+U
+V
+W
+X
+Y
+Z
+
+A->B [label="commands", frontcolor=darkgreen] // edge B-
+B -> C
+B -> D 
+C -> E
+D -> F
+E -> G
+F -> H
+}

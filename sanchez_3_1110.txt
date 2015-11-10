@@ -1,0 +1,4 @@
+I will keep track of the game by using booleans and if and else statements and or different classes
+
+i can track HP (hit points) by also using a boolean and if else statements
+
