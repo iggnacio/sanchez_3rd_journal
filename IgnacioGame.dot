@@ -63,6 +63,9 @@ AH[label="You died"]
 
 AI[label="Congratulations you have protected your new family.You win"]
 
+
+
+
 A->B
 B->C
 B->D
@@ -70,5 +73,10 @@ C->E
 D->F
 E->G
 F->H
-
+H->G
+G->I
+G->J
+G->K
+J->M
+I->K
 }
