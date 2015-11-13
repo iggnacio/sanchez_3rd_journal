@@ -1,0 +1,4 @@
+I will use a while loop in my game to record user answer and keep asking 'till he reponds correctly,and i wil specify the answer to letter usage.
+
+I will use methods and tie it together with my method to make a method that asks for user interface and response and continue to the next level
+
