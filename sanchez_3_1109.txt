@@ -1,0 +1,5 @@
+I am rady to code my program or answer based game so to speak
+
+I am ready to code because i have my outline ready my flowchart will guide me to write my program, i am a bit skeptical because its my first year coding in java and am not all sure about it i used eclipse before and is a bit of a change to in java
+
+my biggest challenge will be organizing my program to understand and dicept it piece by pice and syntax errors such as } and the incorrct use of "'
