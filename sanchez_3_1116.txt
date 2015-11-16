@@ -1,0 +1,3 @@
+In my answer based game i will use methods for the user answer. Every method will declare the following method. it will work fluently because i will give you 3 scenerios and 1 of
+the 3 scenerios will allow you to move on 1 will kill you and eventually lose, the rare occasion will either keep you going with limitations such as timers.So that 1 answer will make the game fluent, 1 will end itm, 1 will make the game shorter logistically.The method will consist of a printed line that has a scanner that searches for a specific answer that has "y" in either lower case or upper case and then move you to the next method.
+if not  you die and begin again.
