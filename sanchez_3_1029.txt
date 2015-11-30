@@ -1,0 +1,3 @@
+My guessing game would have the option to chose difficulty
+The difficulty would be a larger number span for random number
+mY GUESSING GAME is complete and you can guess away.
