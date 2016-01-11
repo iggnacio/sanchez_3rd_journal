@@ -1,0 +1,8 @@
+i will create a slick game in which the world is infected by an airborne 
+virus and you have to find the antidote in cal tech. In order to obtain
+the antidote you have to enter cal tech's labarynth of a laboratory.
+
+The challenges you will face is a laberynth that can lead you to the antidote 
+or potentially kill you.Once you obtain the antidote you must return back to the main 
+lobby without dying if you die you must retry again 'till you succed.
+
