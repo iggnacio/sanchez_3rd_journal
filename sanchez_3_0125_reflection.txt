@@ -1,0 +1,5 @@
+What i could have done to succesfully finish my game is to check if my tiled map was
+64x64 pixels before winter break instead of working on a 32x32 map where as it would
+not work adequetly.Because of this infraction on my proccess it brought me back a couple
+of days that i couldnt afford to lose.The days that i lost resizing my map and making 
+my tiled map i couldhave made my win/lose screen and make it aesthetically better.
