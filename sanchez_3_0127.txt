@@ -1,0 +1,24 @@
+How do you add an image to a slick game?
+
+You place an image in your res file,depending it on your purpose you place it in a 
+different class or method
+
+Where is the image drawn?
+
+In my Rendering method
+
+	Morse.currentImage.draw(Morse.x, Morse.y);
+        Giavanna.currentImage.draw(Giavanna.x, Giavanna.y);
+        Webber.currentImage.draw(Webber.x, Webber.y);
+        Guajardo.currentImage.draw(Guajardo.x, Guajardo.y);
+        Tyreese.currentImage.draw(Tyreese.x, Tyreese.y);
+        Aldo.currentanime.draw(Aldo.Bx, Aldo.By);
+        Davis.currentanime.draw(Davis.Bx, Davis.By);
+        Pape.currentanime.draw(Pape.Bx, Pape.By);
+        Gurkan.currentanime.draw(Gurkan.Bx, Gurkan.By);
+        Luke.currentanime.draw(Luke.Bx, Luke.By);
+        Pepe.currentanime.draw(Pepe.Bx, Pepe.By);
+        Ronaldo.currentanime.draw(Ronaldo.Bx, Ronaldo.By);
+        Steele.currentanime.draw(Steele.Bx, Steele.By);
+        Buche.currentanime.draw(Buche.Bx, Buche.By);
+        Pastor.currentanime.draw(Pastor.Bx, Pastor.By);
