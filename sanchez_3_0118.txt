@@ -1,0 +1,17 @@
+ The slick game i created is called The Maze.
+The Maze is a single player game where you are 
+placed in a man made maze with some company.
+ There are skeletons set to kill any living thing in sight,
+it will not stop till it kills you.
+The objective of the game is to find the box of jewels in
+the middle of the game without getting killed 
+
+I solved a challenge in wich syntax errors came,and my map 
+woukldnt run br=ecause the dimensions didnt match the 
+64x64 game
+
+I made my map and spritesheet during the breake but the dimensions
+were wrong it was 32x32 instead of 64x64. i cry everytime
+
+I concluded with the timeline, im just changing the dank images to
+logical images.
