@@ -1,0 +1,10 @@
+Why bother with revising and resubmitting?
+
+We should revise our code  so we can use the code efficiently.
+we dont want to add useless code to our programm, it will only
+make it harder to understand it and will make it more reading 
+that isnt necessary usefull. This would also make us make a 
+differnt game out of a base game we can differentiate it from 
+others.
+
+We resubmit to show how we work
