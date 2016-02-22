@@ -1,0 +1,6 @@
+Describe what you will have to do to clean up your code to make the program more 
+your own (and legible).
+
+-I will chane the class names to my own. I will clean the code by reading all commented
+errors and deleting it. I will organize it by dividing it into legible sections and it 
+should be in sections.

@@ -1,0 +1,17 @@
+How can / will you make the orb move in the direction you are facing?
+Explain and provide specific code.
+
+-Setting theorbs x and y variables and once it intersects with a enemie it disappears
+} else if (input.isKeyDown(Input.KEY_SPACE)) {
+            //orb1.setLocation(player.x, player.y);
+            orb1.settimeReal(1000);
+            orb1.setX((int) player.x);
+            orb1.setY((int) player.y);
+            orb1.Hitbox.setX(orb1.getX());
+            orb1.Hitbox.setY(orb1.getY());
+            orb1.setIsVisible(!orb1.isIsVisible());
+            //magic8ball.setIsVisible(true);
+        }
+
+        player.rect.setLocation(player.getplayershitboxX(),
+                player.getplayershitboxY()); 

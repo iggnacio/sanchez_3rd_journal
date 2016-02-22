@@ -1,0 +1,5 @@
+How would one check to see whether weapons damage enemies or objects in Slick?
+
+-You would make a class for the object. You give it set dimensions and an image make it
+visible.In your main class you declare it at the top you initialize it in your intersect
+method and add new properties that can make it lose health.

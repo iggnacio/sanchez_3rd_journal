@@ -1,0 +1,21 @@
+What are arrays used for?
+	-arrays are used so that values could be passed down the program in a specific order.
+What is the code for an int array?
+	-int[]arrayName;
+What is the code for an String array?
+	-string[]arrayName;
+What is the code for an boolean array?
+	-boolean[] arrayName;
+What is the code for an double array?
+	-
+How would you change the first value of the int array to 42?
+	-int[0]=42;
+Of the String array to "Bob"?
+	-string[0]="Bob";
+What does this do: private String[] dessert = new String[3];
+
+What does this do: private String[] postres = {"rice pudding", "pan dulce", "bunuelos"}
+
+How are they different?
+
+How would we replace "bunuelos" with "apple pie"?
