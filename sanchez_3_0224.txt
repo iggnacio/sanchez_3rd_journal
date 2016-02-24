@@ -1,0 +1,22 @@
+Define a class Rat
+
+Provide the code to declare and instatiate Rats
+
+Explain where the decaration and initialization are placed
+
+Provode a two-dimensional array that specifies coordinates for five rats
+
+public class Rat(){
+	public int x=0;
+	public int y=0;
+public Rat(int a, int b){
+	x=a;
+	x=b;
+}
+}
+Rat locationOne=newPoint(13,04);
+Rat locationOne=newPoint(23,94);
+Rat locationOne=newPoint(63,74);
+Rat locationOne=newPoint(93,34);
+Rat locationOne=newPoint(53,94);
+
