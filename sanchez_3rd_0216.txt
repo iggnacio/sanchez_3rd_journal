@@ -1,0 +1,5 @@
+i used an array list in my main class to add the enemys into mygame. 
+You can use in array to organize and sort data. These can be made to 
+pass down values throughout a programm and not use up to much space 
+and time in declaring each idividual obect and instanciating it
+you can do that with the method.
