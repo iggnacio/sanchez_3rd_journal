@@ -1,0 +1,18 @@
+Describe the progress you have made on your project.
+We messed around with the buzzer sample program to learn how the buzzer works
+
+What have you done?
+Messed with programs
+
+What do you need to do?
+Make the buzzers get activated by the buttons
+
+What will you be able to turn in on Friday?
+might be almost finished, just deends how the code goes, also not sure if we can do the wiring
+
+What code changes are you writing?
+Changing the for loop that checks for notes that the buzzer plays via array to one that checks the button inputs
+
+What functions have you created?
+none yet but we want to change 
+
