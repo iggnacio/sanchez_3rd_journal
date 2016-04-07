@@ -1,0 +1,25 @@
+What differences and similarites have you noticed? Provide at least 3 and explain in complete sentences.
+c is older, i'm pretty sure, but it looks very similar to java
+
+What code adaptations have you made? [Or will you make if none to date. Note: 'none' is not a valid answer]
+In Circuit 3, we changed the speed of the program for fun.
+
+What is required for a circuit?
+power, path, resistor
+
+How are programs compiled with Arduino?
+the simple IDE we have
+
+Describe the projects you have completed this/last week and what you have learned from them. Descriptions should be _at least_ one full paragraph in length.
+Circuit 1- This one just set up a single LED, so it wasn't very hard and helped us begin to understand the different parts, i.e. resistors and wires.
+Circuit 2- This introduced tge potentiometer, which was just a dial that changed how much energy the LED recieved. It used the same resistors, wires, etc
+Circuit 3- This used the three-color LED. the wiring wasn't too hard, but the code did a lot of work and changed the color of the LED. 
+Circuit 4- The code here 'introduced' us to for loops and arrays, which we already knew a lot about. The program had a pretty cool result but was kinda repetitive to set up.
+Circuit 5- The buttons would be useful for the future project, but the circuit wasn't too hard. the code had input reading, I think.
+
+You will be completing your own project - a project of your own design that accepts user input and provides light and sound in some way.
+ok, ok....
+
+Describe your project and the code adaptations you will have to make. [Note - 'none' is not a valid answer. For example, there is a 'Simon' game provided - using that code would earn a '0' because it is 0% your code.]
+you told us nothing so I haven't thought of anything to do for a project yet.
+
