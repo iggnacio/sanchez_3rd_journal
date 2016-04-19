@@ -1,0 +1,18 @@
+
+For what computational reason did you type elf64?
+-Becuase its the operating system.
+Why did you use ld?
+-it involves the linker.
+Why did you not have to use chmod to make sample executable?
+Because this is fr permitions.
+Now - change the code to print your name. You should change the program so that it actually prints your name.
+-Post the code in your journal
+What problem did you have to solve to get it to work?
+You hade to chbge the code make yout bite size larget in order to write your name.
+-If you would to keep it the same it would give you an error.
+Given your actual experience with Assembly now --- Is assembly 'quick and easy'? Why or why not?
+What does 'low level' actually mean with regards to programming languages?
+-Assembly is not quick and eassy to learn. low level is for a refrence for a LANGUAGE
+that is close with the language the computer actually reads.
+
+ALL IN ALL ASSEMBLY IS NOT EASY
