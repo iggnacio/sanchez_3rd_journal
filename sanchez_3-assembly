@@ -1,0 +1,40 @@
+what is assembly
+-assembly is a low level program that is not portable,more difficult than java,and very 
+ precise and is error-bone in comparison to high level programing.
+ ---------------------------------------------------------------------------------------
+What is assembly good for
+-Assembly language programs contain only the code that is necessary to perform the given
+ task,Assembly gives direct and complete control over system hardware.
+ -i.e:Operating system design
+ ----------------------------------------------------------------------------------------
+ How is assembly different than Java
+ -Java is a high-level computing language,assembly is a low level computing language.
+  basically java is a easier language and is more organized and humanly readible.
+  ---------------------------------------------------------------------------------------
+  What are differences between high level and low level languages
+  _______________________________________________________________________________________
+  High Level                                | Low level
+  __________________________________________|____________________________________________                                          |
+   1.)High-level language programs are      |1.)not portable
+   portable                                 |2.)more difficult than learning high level
+   2.)Program development is faster         |languages
+   3.)Fewer lines of code                   |3.)error-prone
+   4.)Program maintenance is easier         |4.)High-level languages should be natural
+   5.)Compiler translates to the target     |preference for common applications. 
+   machine language                         |
+  _______________________________________________________________________________________
+  ---------------------------------------------------------------------------------------
+  Which type is Java
+  -Java is a high level programming language because it has:
+        -Program development is faster
+        -Fewer lines of code
+        -Program maintenance is easier
+-----------------------------------------------------------------------------------------
+Which type is Assembly
+-assembly is a low level programming language because it has:
+        -not portable
+        -more difficult than java
+        -complete control over system hardware
+        -more lines to do less
+        -Operating system
+        -Not humanly readible
