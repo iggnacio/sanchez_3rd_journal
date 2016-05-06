@@ -1,0 +1,49 @@
+In the Array Game assignment you have had to review and revisit concepts you may have forgotten about. 
+These will all be tested on the final exam!
+What is an array?
+
+-A list of datatypes
+---------------------------------------------------------------------------------------------------------
+How does one make a simple array of Strings?
+String[]
+///this is a 2d array
+---------------------------------------------------------------------------------------------------------
+What is the syntax for a 2-D array?
+
+-datatype[]
+---------------------------------------------------------------------------------------------------------
+What is the syntax for a 3-D array?
+
+-datatype value[][]
+---------------------------------------------------------------------------------------------------------
+How does one change the value for the third value in a one dimensional array? [Give specific code]
+
+-list[2] = 0;
+---------------------------------------------------------------------------------------------------------
+What is the syntax for a while loop?
+
+-while(play == true){
+}
+----------------------------------------------------------------------------------------------------------
+Why use while loops in your game?
+so you can end the game when you reach an objective or lose,without it the game would have no reason
+for existing or playing.
+----------------------------------------------------------------------------------------------------------
+Your game should be in a method outside of main --- How will you call your game in main?
+input()
+
+Why was it recommended that you use .toLowerCase() with your Scanner input?
+(you could also use equalsIgnoreCase in the conditional statement) so it wouldn't matter what case 
+the user's input was and you could just check for 1 or 2 things
+
+-You should use different methods when moving the protagonist and to check for intersections. How? Why?
+
+-Just have a method that returns a boolean(for just an intersects check) or an int(for different types 
+of intersections/with different things).
+
+-It would be cluttered to type it over and over again, and you would need to run/call it often
+-------------------------------------------------------------------------------------------------------------
+What values will you pass across methods? how? why?
+
+-My input method is passed the render method so it can run it at the end of the user input after adjusting 
+player location or coordinates 
