@@ -1,0 +1,51 @@
+Given mymap[67][43] Which is the x coordinate? Which is the y coordinate? Why? How does this happen?
+x is 43 and y is 67. i don't know why other than that's how 2d arrays work.
+-----------------------------------------------------------------------------------------------------------------------------
+    Consider:
+
+            for (int i = 0; i <= map[0].length - 1; i++) {
+                for (int j = 0; j <= map[1].length - 1; j++) {
+                    if (j < map[1].length - 1) {
+                      if (i=0){ System.out.print("8888"); #a
+                        } else if (map[i][j] != 'x') {
+                            System.out.print("."); #e
+                        } else {
+                          System.out.print(map[i][j]); #b
+                        }
+                    } else {
+                        if (map[i][j] != 'x') {
+                            System.out.println("."); #c
+                        } else {
+                            System.out.println(map[i][j]); #d
+                        }
+                    }
+                }
+            }
+        }
+--------------------------------------------------------------------------------------------------------------------------
+Write the code from line #a and explain what it does.
+if (i = 0){ System.out.print("8888");
+the beginning of the line is 8888 (i is x)
+---------------------------------------------------------------------------------------------------------------------------
+Write the code from line #b and explain what it does.
+System.out.print(map[i][j]);
+This prints whatever is on the map array if it is an x
+---------------------------------------------------------------------------------------------------------------------------
+Write the code from line #c and explain what it does. Explain how its different than #e
+System.out.println(".");
+this one is .println so it starts the next line when it is at the x limit
+e is only .print so no newline
+---------------------------------------------------------------------------------------------------------------------------
+Write the code from line #d and explain what it does.
+System.out.println(map[i][j]);
+this prints the player when they are on a map edge
+---------------------------------------------------------------------------------------------------------------------------
+Explain how to use a boolean with a while loop. Provide a very specific use case and code example.
+You can have a boolean called something like game, and in main/game method, put the input->grid loop or however your game works in a while loop so it keeps running while the boolean is true, so you can make it false to  end the game.
+---------------------------------------------------------------------------------------------------------------------------
+Explain the use of static.
+a static class or variable is the same across the whole program, so if you change it in one place it is changing the same one that is everywhere.
+---------------------------------------------------------------------------------------------------------------------------
+Provide an example of how you could use an object with your game. Give a code example.
+You could use an object for enemy to make it easier to have a lot of them
+---------------------------------------------------------------------------------------------------------------------------
