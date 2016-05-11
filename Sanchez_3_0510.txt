@@ -1,0 +1,11 @@
+Explain in your own words -- what happens with nested for loops?
+ I
+ f we have, for example, to for loops that count to 10:
+ 
+ the first one runs through whatever is in it 10 times.
+ 
+ The second one runs 10 times.
+ 
+ The first one repeats that 9 more times, doing whatevr 100 times total.
+ T
+ his is essentially counting through a 2d grid since it counts through each y with each x.
