@@ -1,0 +1,31 @@
+    Explain casting. Up-casting, Down-casting.
+      casting:both up and down casting
+      up-casting:This can be a object
+      down-casting:This is a highly specified portion of the object
+      
+    ----------------------------------------------------------------------------------
+    Give a specific code example for up-casting
+      Reptile m = new Iguana();
+      
+    ----------------------------------------------------------------------------------
+    Give a specific code example for down-casting
+      Ignana c1 = new iguana();		 
+	    Reptile a = c1;		 
+	    iguana c2 = (Cat) a;   
+    
+    ----------------------------------------------------------------------------------
+    Give a specific code example for converting a char to a String
+    public static void main(String[] args) {
+
+		String string = "memes";
+
+		char[] charArray = string.toCharArray();
+
+		System.out.println("String is:" + string + " Character Array : "
+				+ Arrays.toString(charArray));
+	}
+	
+    ----------------------------------------------------------------------------------
+    What is the range of values for byte? Why?
+    1-4 bytes depending on data type
+    ----------------------------------------------------------------------------------
