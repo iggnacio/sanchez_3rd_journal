@@ -1,0 +1,25 @@
+  The Slick assignment was intended to gently familiarize you with 2-D arrays. Some students recognized 
+the 2-D arrays from Slick and previous journals --- other students had no recollection. Which were 
+you? Why? Note - attributing the environment is not pragmatic - as students experienced the same 
+environment (though they might have experienced it differently)
+        
+         -At first when i saw what in had to see i  didnt see the connection with the slick assigment 
+         we did. But when i started working on it is saw the simuilarities. The way we added the 
+         player,enemy,traps ect. Also the way i added traps by using math.reandom. Then i notice 
+         if i really wanted to i could add health, and inventorty to the layer and enemyes.
+---------------------------------------------------------------------------------------------------------
+      
+      Make a list of ten questions related to the Array assignments pt 1 and 2 - that you predict will be 
+    on the semester exam. E.g., object initialization,class constructors, creating and changing arrays, 
+    etc.
+        -How to make a array list?
+        -How to make a 2d array?
+        -What is a 2D array?
+        -Example of a class constructure.
+        -What is OOP?
+        -How dose a for-loop work?
+        -How to set values to a empty array.
+        -How to make an object?
+        -How do you instansiate an object?
+        -What are getters and setters?
+---------------------------------------------------------------------------------------------------------
