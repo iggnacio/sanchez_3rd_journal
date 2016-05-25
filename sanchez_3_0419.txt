@@ -1,0 +1,11 @@
+Describe - what similarities do you notice between assembly and Human Resource Machine?
+
+  Assembly also has jumps, like HRM, and doesnt have loops. They are low-level, 
+and you instruct each part of the program.
+They use lots of simple instructions like comparing numbers and basic math.
+-----------------------------------------------------------------------------------------------------------------------------------
+Describe - what differences do you notice between assembly and Human Resource Machine?
+
+  HRM is easier to use since it explains everything, and you only use it to inbox / outbox 
+instead of controlling the computer/machine.
+-----------------------------------------------------------------------------------------------------------------------------------
