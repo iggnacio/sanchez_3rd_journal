@@ -1,0 +1,49 @@
+ 1.how to use classes/objects
+
+  it's important for OOP and pretty much necessary for programming in most languages with out 
+  being very inefficient
+----------------------------------------------------------------------------------------------
+ 2.class constructors
+  
+  they are a necessary part of using object implementation (to tell the object/class which 
+variables to be fed)
+----------------------------------------------------------------------------------------------
+ 3.basic Comp Sci principles that we covered at the beginning of the year, like abstraction 
+ and encapsulation
+  
+  Mr. Davis emphasized their importance because they are essential for learning and 
+problem-solving etc.
+----------------------------------------------------------------------------------------------
+ 4.maybe some basics of Slick
+
+  we used it for a while and it was part of our learning of classes, objects, 
+  problem-solving, etc.
+----------------------------------------------------------------------------------------------
+ 5.assembly/maybe HRM
+
+    low-level languages are important for CS since they deal with basic computer manipulization 
+  / software-to-hardware translation
+----------------------------------------------------------------------------------------------
+ 6. basic data types
+
+  We learned them early on and they are necessary for using most languages
+----------------------------------------------------------------------------------------------
+ 7.for loops and/or conditional statements
+
+  They are another basic necessary part of OOP/coding
+----------------------------------------------------------------------------------------------
+ 8.getters/setters and private variables
+  
+  without them a lot of variables you would want to use if you had similar-ish classes would 
+  interfere if they were public
+----------------------------------------------------------------------------------------------
+ 9.arrays vs ArrayLists
+
+  arrays are an important part of most coding languages, and ArrayLists are useful in Java 
+  or Slick or whatever used them
+----------------------------------------------------------------------------------------------
+10.string manipulation and substrings/arrays 
+  
+  we practiced this on codingbat, these are useful any time you want to do something with a 
+  String in java, like someone's name/character's name for interactivity
+ ----------------------------------------------------------------------------------------------
